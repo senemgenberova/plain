@@ -1,0 +1,164 @@
+body {
+  font-family: "Open Sans"; }
+
+.container {
+  width: 940px; }
+
+.main .header {
+  padding-bottom: 15px; }
+  .main .header .logo h2 {
+    font-weight: 700;
+    font-size: 35px;
+    transition: all .3s; }
+    .main .header .logo h2:hover {
+      color: #7ed090; }
+  .main .header .menu ul {
+    list-style: none;
+    margin-top: 20px; }
+    .main .header .menu ul li {
+      display: inline-block;
+      font-size: 14px;
+      padding: 10px;
+      margin-left: 8px;
+      color: #444;
+      cursor: pointer; }
+      .main .header .menu ul li.active {
+        border-bottom: 1px solid #555; }
+      .main .header .menu ul li:hover {
+        border-bottom: 1px solid #ccc; }
+.main .content .up span {
+  color: white;
+  font-size: 25px;
+  background: #777;
+  padding: 6px;
+  position: fixed;
+  right: 20px;
+  border-radius: 5px;
+  z-index: 10;
+  top: 90%;
+  transition: all .2s; }
+  .main .content .up span:hover {
+    background-color: #7ed090; }
+.main .content .top_content {
+  position: relative;
+  padding: 16% 0;
+  background: linear-gradient(#F4F4F4, white);
+  overflow: hidden; }
+  .main .content .top_content .direction {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0; }
+    .main .content .top_content .direction .direct {
+      background: #A2A09E;
+      border-radius: 100%;
+      padding: 15px;
+      transition: all .4s;
+      z-index: 3; }
+      .main .content .top_content .direction .direct:hover {
+        background: #f47d5e; }
+.main .content .we {
+  padding: 107px 0 30px 0;
+  background: url("../img/bg.png") repeat-x;
+  position: relative; }
+  .main .content .we .screen {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    z-index: 2;
+    bottom: 68.1%; }
+  .main .content .we .grass {
+    position: absolute;
+    left: 29.5%;
+    bottom: 106%; }
+  .main .content .we .feature {
+    text-align: justify; }
+    .main .content .we .feature h3 {
+      font-weight: 700;
+      color: #999999;
+      margin-bottom: 20px; }
+      .main .content .we .feature h3 span {
+        color: #474747; }
+    .main .content .we .feature p {
+      color: #474747;
+      font-size: 13px; }
+    .main .content .we .feature a {
+      font-size: 13px; }
+.main .content .pictures {
+  padding: 0px 0 30px 0; }
+  .main .content .pictures .image {
+    overflow: hidden; }
+    .main .content .pictures .image .icon {
+      padding: 10px 0;
+      border: 1px solid #ccc;
+      position: relative; }
+      .main .content .pictures .image .icon p {
+        margin-left: 15px; }
+      .main .content .pictures .image .icon .glyphicon {
+        margin-right: 10px;
+        color: gray; }
+      .main .content .pictures .image .icon::after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: -14px;
+        left: 10%;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 14px solid white; }
+.main .footer {
+  overflow: hidden; }
+  .main .footer .top_footer {
+    background: url("../img/footer.png");
+    padding: 25px 0 10px 0; }
+    .main .footer .top_footer .plain a {
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+      margin-bottom: 15px; }
+    .main .footer .top_footer h4 {
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+      margin-bottom: 32px; }
+    .main .footer .top_footer p {
+      font-size: 12px;
+      color: #999;
+      margin-top: 15px; }
+    .main .footer .top_footer .icons ul {
+      list-style: none;
+      padding: 0; }
+      .main .footer .top_footer .icons ul li {
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        background: #5A5A5A;
+        border-radius: 100%;
+        padding: 5px 11px;
+        margin-right: 4px;
+        text-align: center; }
+    .main .footer .top_footer .news .has-success {
+      z-index: 3; }
+      .main .footer .top_footer .news .has-success .form-control {
+        border-color: #212121;
+        background: #212121; }
+      .main .footer .top_footer .news .has-success .form-control-feedback {
+        color: grey;
+        z-index: 4; }
+        .main .footer .top_footer .news .has-success .form-control-feedback:hover {
+          color: #7ed090; }
+  .main .footer .down_footer {
+    background: #080707;
+    padding: 12px 0;
+    color: #ccc;
+    position: relative;
+    font-size: 11px; }
+    .main .footer .down_footer span {
+      color: white; }
+      .main .footer .down_footer span:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+
+/*# sourceMappingURL=style.css.map */
